@@ -1,0 +1,12 @@
+.iframe-container {
+    position: relative;
+    width: 100%; /* Ajusta el contenedor al ancho del padre */
+    padding-bottom: 75%; /* Esto crea un contenedor con relación de aspecto 4:3 (400/300) */
+  }
+  
+  iframe {
+    position: absolute;
+    width: 100%; /* Ajusta el iframe al 100% del ancho del contenedor */
+    height: 100%; /* Ajusta el iframe al 100% del alto del contenedor */
+    border: none; /* Elimina el borde si lo hubiera */
+  }
